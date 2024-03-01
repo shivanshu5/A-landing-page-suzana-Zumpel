@@ -1,0 +1,122 @@
+* {
+    height: 0;
+    width: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.main {
+    height: 100%;
+    width: 100%;
+    background-color: hsl(344, 25%, 71%);
+    display: flex;
+}
+.nav{
+position: absolute;
+width: 200px;
+height: 200px;
+/* background-color: aquamarine; */
+display:inline-flex;
+align-items: center;
+justify-content: space-between;
+gap: 50px;
+top: 3%;
+left: 3%;
+
+}
+.nav img{
+    height: 70px;
+    width: 70px;
+}
+h5{
+    font-size: 30px;
+    color: white;
+    display: inline-block;
+/* overflow: hidden; */
+text-wrap: nowrap;
+}
+.part1 {
+    height: 100%;
+    width: 26%;
+    /* background-color: red; */
+}
+
+.part2 {
+    height: 100%;
+    width: 67%;
+    /* background-color: green; */
+    background-image: url(https://images.unsplash.com/photo-1562572159-4efc207f5aff?q=80&w=2535&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position:top;
+}
+ .overlay  {
+    height: 100%;
+    width: 100%;
+    background-color: hsla(348, 22%, 28%, 0.283);
+    /* background-color: white; */
+}
+
+
+.part3 {
+    height: 100%;
+    width: 7%;
+    /* background-color: blue; */
+}
+.textdiv{
+    height: 200px;
+    width: 200px;
+    /* background-color: red; */
+    position: absolute;
+    left: 6%;
+    top: 50%;
+    transform: translate(0,-50%);
+}
+.textdiv >h2{
+    font-size: 90px;
+    letter-spacing: 2px;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 90px;
+    color:white;
+}
+.small{
+    height: 300px;
+    width: 250px;
+    /* background-color: purple; */
+    background-image: url(https://images.unsplash.com/photo-1560727749-cc261b23794c?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    transform: translate(0, -50%);
+}
+.verticle{
+    position: absolute;
+   white-space: nowrap;
+    transform: rotate(90deg);
+    width: 100%;
+    height: 100%;
+    right: -22%;
+    display: inline-block;
+    margin-top:20%;
+    /* transform-origin: 0% 0%; */
+    
+}
+.verticle>h1{
+    font-size: 60px;
+    color: transparent;
+    font-weight: 900;
+    font-family:monumentExtended;
+   text-transform: uppercase;
+
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: white;
+    letter-spacing: 7px;
+}
